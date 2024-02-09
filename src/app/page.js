@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Navbar />
       <Service />
-     <Desination />
+      <Desination />
       <BookTrip />
       <Testimonials />
       <Logos />
