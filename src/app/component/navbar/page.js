@@ -1,5 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
+import plane from "/public/image/plane.jpg"
+import girls from "/public/image/girls.png"
+import Playbutton from "/public/image/Playbutton.jpg"
+import Decore from "/public/image/Decore.png"
+
 
 
 export default function Header(){
@@ -35,12 +40,12 @@ return (
   
 
  {/* ///////// plane image ///// */}
- <img class=" origin-top-left  absolute   ml-[540px]  mt-96   " src="/plane.jpg" />
+ <Image class="origin-top-left  absolute   ml-[540px]  mt-96" src={plane}  alt="plane" />
 
 {/* ///// girl image /////////////// */}
- <img class="  w-150  h-150 mr-52 absolute ml-[468px] mt-28 " src="/girls.png" />
+ <Image class="  w-150  h-150 mr-52 absolute ml-[468px] mt-28 " src={girls} alt="girls"  />
 
- <img class=" origin-top-left  absolute   ml-[1110px]  mt-56   " src="/planes.png" />
+ <Image class=" origin-top-left  absolute   ml-[1110px]  mt-56   " src={plane}  alt="plane" />
 
      <div className="mt-44 ml-10 ">
      <h1 className=" text-orange-500 text-xl  font-semibold ">Best Destinations around the world</h1>
@@ -57,7 +62,7 @@ return (
       <button className="bg-wdc-yello  text-white  py-3 px-6  rounded-md mt-6">Find out more</button> 
       </div>
       <div className=" inline-flex h-20 mt-6 bg-white px-2  rounded-md ">
-      <Image src="/Play button.jpg"  width="90" height="100" className="  "></Image>
+      <Image src={Playbutton} alt="playbutton"  className=" w-24 h-24 " />
      <h1 className=" mt-4 "><a href="#">Play demo</a></h1>
       </div>
      
@@ -68,7 +73,7 @@ return (
 
     
 
-    <img class="  w-130  h-90 " src="/Decore.png" />
+    <Image class="w-130  h-90 " src={Decore} alt="decore" />
   
 
     </div>

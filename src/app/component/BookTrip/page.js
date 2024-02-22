@@ -1,4 +1,13 @@
+import Image from "next/image"
 
+import Group7 from "/public/image/Group7.png"
+import Group11 from "/public/image/Group11.png"
+import Group12 from "/public/image/Group12.png"
+import Rectangle17 from "/public/image/Rectangle17.jpg"
+import leaf1 from "/public/image/leaf1.png"
+import send2 from "/public/image/send2.png"
+import map1 from "/public/image/map1.png"
+import building1 from "/public/image/building1.png"
 
 
 
@@ -17,7 +26,7 @@ export default function BookTrip(){
 
       <div className="flex gap-4 mt-4 ml-28 ">
        <div>
-        <img src="/Group 7.png" className=" h-10 w-10 " />
+        <Image src={Group7} alt="Group7" className=" h-10 w-10 " />
        </div>
 
         <div className="">
@@ -30,7 +39,7 @@ export default function BookTrip(){
 
       <div className="flex gap-4  ">
        <div className=" mt-8 ml-28">
-        <img src="/Group 11.png" className=" h-10 w-10 " />
+        <Image src={Group11} alt="group11" className=" h-10 w-10 " />
        </div>
 
         <div className=" mt-5">
@@ -43,7 +52,7 @@ export default function BookTrip(){
 
       <div className="flex gap-4 mt-8 ml-28 ">
        <div>
-        <img src="/Group 12.png" className=" h-10 w-10 " />
+        <Image src={Group12} alt="group" className=" h-10 w-10 " />
        </div>
 
         <div className="">
@@ -56,8 +65,8 @@ export default function BookTrip(){
 
 
        <div className="  mr-52 mt-24 "> 
-        <div className="  w-[420px] h-[420px]  bg-white  rounded-3xl shadow-2xl  ">
-        <img  src="/Rectangle 17.jpg"  className="w-[370px] h-[250px] ml-6 py-4 rounded-3xl " />
+        <div className="  w-[420px] h-[420px]  bg-white  rounded-3xl shadow-xl ease-in duration-300  even:shadow-orange-600 odd:shadow-blue-400   ">
+        <Image  src={Rectangle17} alt="rectangel" className="w-[370px] h-[250px] ml-6 py-4 rounded-3xl " />
         <h1 className="ml-4" >Trip To Greece</h1>
          
          
@@ -68,22 +77,22 @@ export default function BookTrip(){
 
            <div className="flex justify-start gap-4  mt-6    ">
             <div >
-             <img src="/leaf 1.png" className=" w-4 h-4 mt-1 ml-4 "      />
+             <Image src={leaf1} alt="leaf" className=" w-4 h-4 mt-1 ml-4 "      />
             </div>
 
             <div>
-             <img src="/map 1.png" className=" w-4 h-4 mt-1 ml-4"      />
+             <Image src={map1} alt="map" className=" w-4 h-4 mt-1 ml-4"      />
             </div>
 
             <div>
-             <img src="/send 2.png" className=" w-4 h-4  mt-1  ml-4"      />
+             <Image src={send2} alt="send" className=" w-4 h-4  mt-1  ml-4"      />
             </div>
            </div>
            
               
              <div className="flex justify-start gap-1"  >
               <div>
-               <img  src="/building 1.png"  className="w-4 h-4  mt-5  ml-4 "  />
+               <Image  src={building1}  alt="building" className="w-4 h-4  mt-5  ml-4 "  />
               </div>
 
               <div>
