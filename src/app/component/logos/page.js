@@ -1,7 +1,7 @@
 import Image from "next/image"
 import image27 from "/public/image/image27.png"
 import image28 from "/public/image/image28.png"
-import image29 from "/public/image/Image29.png"
+import image29 from "/public/image/image29.png"
 import image30 from "/public/image/image30.png"
 import image31 from "/public/image/image31.png"
 
