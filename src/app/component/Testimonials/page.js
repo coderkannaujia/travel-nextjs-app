@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import Group61 from "/public/image/Group61.png"
-import image from "/public/image/image.png"
+import amit from "/public/image/amit.jpg"
 
 export default function Testimonials(){
  return(
@@ -19,7 +19,7 @@ export default function Testimonials(){
            </div>
 
            <div className="mr-40 mt-8 ">
-            <Image  src={image} alt="image" className="w-10 h-10   mr-96"      />
+            <Image  src={amit} alt="image" className="w-10 h-10   mr-96"      />
             <p className="ml-8 font-semibold  ">“On the Windows talking painted pasture yet its<br /> express parties use. Sure last upon he same as<br /> knew next. Of believed or diverted no.”</p>
             <div className="mt-8">
             <h1 className="ml-8 font-semibold  ">Mike taylor</h1>
